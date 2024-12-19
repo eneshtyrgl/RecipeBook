@@ -21,8 +21,8 @@ RecipeBook/
 │   └── settings.json
 ├── diagrams/
 │   ├── uml-diagram.jpeg
-│   ├── uml-diagram-final.jpeg
 │   └── use-case-diagram.jpeg
+├── LICENSE
 ├── pom.xml
 ├── README.md
 ├── src/

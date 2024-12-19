@@ -39,3 +39,8 @@ Thumbs.db
 # Ignore temporary files
 *.tmp
 *.temp
+
+# Ignore document files
+*.pdf
+*.odt
+*.pptx
