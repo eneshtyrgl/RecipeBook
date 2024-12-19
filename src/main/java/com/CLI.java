@@ -21,7 +21,7 @@ public class CLI {
             System.out.println("5. Exit");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            scanner.nextLine();
     
             clearScreen();
             switch (choice) {
@@ -45,8 +45,9 @@ public class CLI {
         }
     }
     
+    // Clears the console screen for better experience
     private void clearScreen() {
-        System.out.print("\033[H\033[2J"); //ANSI escape code
+        System.out.print("\033[H\033[2J"); // ANSI escape code
         System.out.flush();
     }
 
